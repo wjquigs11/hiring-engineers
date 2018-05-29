@@ -1,1 +1,1 @@
-Your answers to the questions go here.
+Host map with tags:
