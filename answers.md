@@ -10,7 +10,25 @@ quigbook:~ quiglw$ /usr/local/bin/datadog-agent info
 Error: unknown command "info" for "agent"
 Run 'agent --help' for usage.
 
-Regardless, 'agent status' did not recognize the mongodb agent.
+Regardless, 'agent status' did not recognize the mongodb agent, because it failed to parse my mongodb configuration file, which looks like this:
+
+init_config:
+
+instances:
+  # Specify the MongoDB URI, with database to use for reporting (defaults to "admin")
+# mongodb://datadog:LnCbkX4uhpuLHSUrcayEoAZA@localhost:27016/my-db
+ - server: mongodb://datadog:password@localhost:27017/test
+
+Not sure what's wrong with that, but the agent reports this:
+
+Config Errors
+  ==============
+    mongo
+    -----
+      yaml: unmarshal errors:
+  line 6: cannot unmarshal !!map into []check.ConfigRawMap
+
+
 
 Here is my custom agent check:
 
