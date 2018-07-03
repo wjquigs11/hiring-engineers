@@ -1,5 +1,5 @@
 Host map with tags:
-https://www.dropbox.com/s/cwi22do0qrddrs8/Screenshot%202018-05-16%2010.30.37.png?dl=0
+(https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-16%2010.17.17.png)
 
 I installed mongodb (for Mac) and had issues attempting to configure the DataDog Agent:
 https://www.dropbox.com/s/0k2w1hp4usoikjs/Screen%20Shot%202018-05-16%20at%2011.10.06%20AM.png?dl=0
@@ -15,16 +15,16 @@ Regardless, 'agent status' did not recognize the mongodb agent, because it faile
 init_config:
 
 instances:
-  - server: mongodb://datadog:password@localhost:27017/test
+- server: mongodb://datadog:password@localhost:27017/test
 
 Not sure what's wrong with that, but the agent reports this:
 
 Config Errors
-  ==============
-    mongo
-    -----
-      yaml: unmarshal errors:
-  line 6: cannot unmarshal !!map into []check.ConfigRawMap
+==============
+mongo
+-----
+yaml: unmarshal errors:
+line 6: cannot unmarshal !!map into []check.ConfigRawMap
 
 
 
