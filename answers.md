@@ -1,5 +1,5 @@
 Host map with tags:
-![ss1](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-16%2010.30.37.png)
+![hostmap](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-16%2010.30.37.png)
 
 I installed mongodb (for Mac) and had issues attempting to configure the DataDog Agent:
 ![ss2](https://www.dropbox.com/s/0k2w1hp4usoikjs/Screen%20Shot%202018-05-16%20at%2011.10.06%20AM.png)
