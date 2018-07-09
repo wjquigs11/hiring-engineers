@@ -1,10 +1,10 @@
-Host map with tags:
+I installed the DataDog agent on two MacBooks and a Linux guest (Vagrant Ubuntu). The agents started reporting and appeared in my host map.
 ![hostmap](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-16%2010.30.37.png)
 
 I installed mongodb (for Mac) and had issues attempting to configure the DataDog Agent:
 
 ![mongo agent1](https:hiring-engineers/Screen%20Shot%202018-05-16%20at%2011.10.06%20AM.png)
-![mongo agent2](https://www.dropbox.com/s/jcl0h6vs4mftmik/Screen%20Shot%202018-05-16%20at%2011.29.10%20AM.png)
+![mongo agent2](https:hiring-engineers/Screen%20Shot%202018-05-16%20at%2011.29.10%20AM.png)
 
 Some of the documentation seems out of date, specifically, the instruction, "Execute the 'info' command."
 quigbook:~ quiglw$ /usr/local/bin/datadog-agent info
@@ -27,9 +27,9 @@ mongo
 yaml: unmarshal errors:
 line 6: cannot unmarshal !!map into []check.ConfigRawMap
 
+Not sure whether this is a bug or user error. I typically check with an expert before reporting a bug.
 
-
-Here is my custom agent check:
+I moved on to writing a custom agent check:
 
 from checks import AgentCheck
 import random
@@ -40,7 +40,7 @@ class QuigCheck(AgentCheck):
 You can change the collection interval without modifying the check file by modifying the global collection interval.
 
 Here is my timeboard:
-https://www.dropbox.com/s/hwzmdqcrglc7uf9/Screenshot%202018-05-17%2008.30.30.png?dl=0
+![timeboard](https:hiring-engineers/Screenshot%202018-05-17%2008.30.30.png)
 
 Here are some screenshots of the process:
 https://www.dropbox.com/sh/9onshpf8ab9b4gp/AACB7YtkCVKn8SydOMtZtVbHa?dl=0
