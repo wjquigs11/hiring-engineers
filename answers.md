@@ -43,8 +43,9 @@ Here is my timeboard:
 ![timeboard](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.30.30.png)
 
 Here are some screenshots of the process to set it up:
-![](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.44.55.png)
-![](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.45.51.png)
+![1](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.44.55.png)
+![2](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.45.51.png)
+![2b])https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.45.51.png)
 
 5-minute snapshot:
 https://www.dropbox.com/s/riw26pmwt0x6vx7/Screenshot%202018-05-29%2009.21.52.png?dl=0
