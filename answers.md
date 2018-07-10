@@ -3,8 +3,8 @@ I installed the DataDog agent on two MacBooks and a Linux guest (Vagrant Ubuntu)
 
 I installed mongodb (for Mac) and had issues attempting to configure the DataDog Agent:
 
-![mongo agent1](https:hiring-engineers/Screen%20Shot%202018-05-16%20at%2011.10.06%20AM.png)
-![mongo agent2](https:hiring-engineers/Screen%20Shot%202018-05-16%20at%2011.29.10%20AM.png)
+![mongo agent1](https:hiring-engineers/blob/wjquigs11-patch-1/Screen%20Shot%202018-05-16%20at%2011.10.06%20AM.png)
+![mongo agent2](https:hiring-engineers/blob/wjquigs11-patch-1/Screen%20Shot%202018-05-16%20at%2011.29.10%20AM.png)
 
 Some of the documentation seems out of date, specifically, the instruction, "Execute the 'info' command."
 quigbook:~ quiglw$ /usr/local/bin/datadog-agent info
@@ -40,10 +40,11 @@ class QuigCheck(AgentCheck):
 You can change the collection interval without modifying the check file by modifying the global collection interval.
 
 Here is my timeboard:
-![timeboard](https:hiring-engineers/Screenshot%202018-05-17%2008.30.30.png)
+![timeboard](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.30.30.png)
 
-Here are some screenshots of the process:
-https://www.dropbox.com/sh/9onshpf8ab9b4gp/AACB7YtkCVKn8SydOMtZtVbHa?dl=0
+Here are some screenshots of the process to set it up:
+![](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.44.55.png)
+![](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.45.51.png)
 
 5-minute snapshot:
 https://www.dropbox.com/s/riw26pmwt0x6vx7/Screenshot%202018-05-29%2009.21.52.png?dl=0
