@@ -45,7 +45,7 @@ Here is my timeboard:
 5-minute snapshot:
 ![5-min](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-29%2009.21.52.png)
 
-Metric Monitor:
+Some screenshots of my Metric Monitor:
 ![metric1](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.45.51.png)
 ![metric2](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.55.36.png)
 ![metric3](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.58.57.png)
@@ -56,7 +56,7 @@ Email for alert:
 Alert downtime:
 ![downtime](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2009.04.47.png)
 
-Downtime email:
+I set up my downtime email to silence the alert:
 ![email](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2009.05.06.png)
 
 Flask app instrumentation:
@@ -98,3 +98,4 @@ def trace_endpoint():
 if __name__ == '__main__':
     app.run()
 
+Final Question: I would use DataDog to collect fine-grained consumption information from my electric car, and all my friends' electric cars, to prove or disprove a couple of my personal theories (first, that "economy mode" doesn't change your range, and second, that "brake mode" is a lot less efficient than manual braking).
