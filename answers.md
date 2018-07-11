@@ -1,10 +1,10 @@
 I installed the DataDog agent on two MacBooks and a Linux guest (Vagrant Ubuntu). The agents started reporting and appeared in my host map.
-![hostmap](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-16%2010.30.37.png)
+![hostmap](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-16%2010.30.37.png)
 
 I installed mongodb (for Mac) and had issues attempting to configure the DataDog Agent:
 
-![mongo agent1](https:hiring-engineers/blob/wjquigs11-patch-1/Screen%20Shot%202018-05-16%20at%2011.10.06%20AM.png)
-![mongo agent2](https:hiring-engineers/blob/wjquigs11-patch-1/Screen%20Shot%202018-05-16%20at%2011.29.10%20AM.png)
+![mongo agent1](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screen%20Shot%202018-05-16%20at%2011.10.06%20AM.png)
+![mongo agent2](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screen%20Shot%202018-05-16%20at%2011.29.10%20AM.png)
 
 Some of the documentation seems out of date, specifically, the instruction, "Execute the 'info' command."
 quigbook:~ quiglw$ /usr/local/bin/datadog-agent info
@@ -40,33 +40,28 @@ class QuigCheck(AgentCheck):
 You can change the collection interval without modifying the check file by modifying the global collection interval.
 
 Here is my timeboard:
-![timeboard](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.30.30.png)
-
-Here are some screenshots of the process to set it up:
-![1](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.44.55.png)
-![2](https:hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.45.51.png)
-![2b](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.45.51.png)
+![timeboard](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.30.30.png)
 
 5-minute snapshot:
-https://www.dropbox.com/s/riw26pmwt0x6vx7/Screenshot%202018-05-29%2009.21.52.png?dl=0
+![5-min](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-29%2009.21.52.png)
 
 Metric Monitor:
-https://www.dropbox.com/s/n1l6e0ce514p1mf/Screenshot%202018-05-17%2008.45.51.png?dl=0
-https://www.dropbox.com/s/08i51bei0uhwor1/Screenshot%202018-05-17%2008.55.36.png?dl=0
-https://www.dropbox.com/s/fwj7i0zjcp3hhls/Screenshot%202018-05-17%2008.58.57.png?dl=0
+![metric1](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.45.51.png)
+![metric2](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.55.36.png)
+![metric3](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2008.58.57.png)
 
 Email for alert:
-https://www.dropbox.com/s/orycj9fplflu0kf/Screenshot%202018-05-29%2009.26.42.png?dl=0
+![email](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-29%2009.26.42.png)
 
 Alert downtime:
-https://www.dropbox.com/s/52xa99tevfxkfjt/Screenshot%202018-05-17%2009.04.47.png?dl=0
+![downtime](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2009.04.47.png)
 
 Downtime email:
-https://www.dropbox.com/s/jg12vos953fnei4/Screenshot%202018-05-17%2009.05.06.png?dl=0
+![email](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2009.05.06.png)
 
 Flask app instrumentation:
-https://www.dropbox.com/s/g8zkt87nqpzroaz/Screenshot%202018-05-17%2009.53.16.png?dl=0
-https://www.dropbox.com/s/pdmqelgy6fvx6wm/Screenshot%202018-05-17%2009.56.15.png?dl=0
+![flask1](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2009.53.16.png)
+![flask2](https://github.com/wjquigs11/hiring-engineers/blob/wjquigs11-patch-1/Screenshot%202018-05-17%2009.56.15.png)
 
 My app:
 from flask import Flask
